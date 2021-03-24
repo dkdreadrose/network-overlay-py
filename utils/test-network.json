@@ -1,0 +1,11 @@
+{
+  "network": {
+    "nodes": ["Machine-A", "Machine-B", "Machine-C", "Machine-D"],
+    "connections": {
+      "Machine-A": ["Machine-B", "Machine-C", "Machine-D"],
+      "Machine-B": ["Machine-A", "Machine-C", "Machine-D"],
+      "Machine-C": ["Machine-A", "Machine-B"],
+      "Machine-D": ["Machine-A"]
+    }
+  }
+}
